@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="New Configuration" />
+                  <MenuItem mnemonicParsing="false" text="Save" />
+                  <MenuItem mnemonicParsing="false" text="Save as" />
+                  <MenuItem mnemonicParsing="false" text="Load" />
+                  <MenuItem mnemonicParsing="false" text="Exit" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Options">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Electrovannes" />
+                  <MenuItem mnemonicParsing="false" text="Connexion" />
+                  <MenuItem mnemonicParsing="false" text="Capteurs" />
+                  <MenuItem mnemonicParsing="false" text="Traitement photo" />
+                  <MenuItem mnemonicParsing="false" text="Sauvegarde photo" />
+                  <MenuItem mnemonicParsing="false" text="Edit Scenarios" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="About">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Documentation Utilisateur" />
+                  <MenuItem mnemonicParsing="false" text="Documentation Technique" />
+                  <MenuItem mnemonicParsing="false" text="Tutorials" />
+                  <MenuItem mnemonicParsing="false" text="Premiers pas" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+</BorderPane>
